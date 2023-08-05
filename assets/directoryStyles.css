@@ -1,0 +1,28 @@
+/* general container */
+#memberDirectory {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 768px) {
+  #memberDirectory {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  #memberDirectory {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  #memberDirectory {
+    width: 1170px;
+  }
+}
+/* general container */
+
+#memberDirectory a {
+  color: #E4002B;
+  text-decoration: none;
+}
