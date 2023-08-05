@@ -1,3 +1,10 @@
+/* global styling */
+#memberDirectory a {
+  color: #e4002b;
+  text-decoration: none;
+}
+/* global styling */
+
 /* general container */
 #memberDirectory {
   margin-right: auto;
@@ -22,7 +29,135 @@
 }
 /* general container */
 
-#memberDirectory a {
-  color: #E4002B;
+/* advanced search */
+#memberDirectory table {
+  width: 100%;
+  border-width: 2px 0 0 2px;
+  border-style: solid;
+  border-color: #696969;
+  border-color: rgba(105, 105, 105, 1);
+  background-color: #e6e7e8;
+  background-color: rgba(228, 239, 246, 1);
+}
+
+#memberDirectory thead {
+  color: #000000;
+  color: rgba(0, 0, 0, 1);
+  background-color: #696969;
+  background-color: rgba(105, 105, 105, 1);
+}
+
+#memberDirectory table th,
+#memberDirectory table td {
+  padding: 15px;
+  border-width: 0 2px 2px 0;
+  border-style: solid;
+  border-color: #696969;
+  border-color: rgba(105, 105, 105, 1);
+}
+
+#memberDirectory table tr:nth-of-type(even) td {
+  background-color: #ffffff;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.#memberDirectory tables #memberDirectory table tr:nth-of-type(even) td,
+.#memberDirectory tables .body .item:nth-of-type(even) {
+  background-color: #ffffff;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+#memberDirectory table th {
+  font-weight: 500;
+  font-size: 15px;
+}
+
+#memberDirectory table tr p:first-of-type {
+  margin-top: 0;
+}
+
+#memberDirectory table tr p:last-of-type {
+  margin-bottom: 0;
+}
+/* advanced search */
+
+/* specific categories */
+.ListingResults_Level1_HEADER,
+.ListingDetails_Level1_HEADERBOX {
+  background-color: #ffffff;
+  border-color: #eb092b;
+  border-width: thin;
+}
+
+.ListingResults_Level2_HEADER,
+.ListingDetails_Level2_HEADERBOX {
+  background-color: #ffffff;
+  border-color: #eb092b;
+  border-width: thin;
+}
+
+.ListingResults_Level3_HEADER,
+.ListingDetails_Level3_HEADERBOX {
+  background-color: #012d54;
+  border-color: #012d54;
+}
+
+.ListingResults_Level4_HEADER,
+.ListingDetails_Level4_HEADERBOX {
+  background-color: #eb092b;
+  border-color: #000000;
+  border-width: thin;
+}
+
+.ListingResults_Level5_HEADER,
+.ListingDetails_Level5_HEADERBOX {
+  background-color: #eb092b;
+  border-color: #000000;
+  border-width: thin;
+}
+
+.ListingResults_Level1_HEADER,
+.ListingResults_Level1_HEADER a,
+.ListingResults_Level1_HEADER a:hover,
+.ListingResults_Level1_HEADER a:visited {
+  color: #ffffff;
+  font-size: 14px;
   text-decoration: none;
 }
+
+.ListingResults_Level2_HEADER,
+.ListingResults_Level2_HEADER a,
+.ListingResults_Level2_HEADER a:hover,
+.ListingResults_Level2_HEADER a:visited {
+  color: #ffffff;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.ListingResults_Level3_HEADER,
+.ListingResults_Level3_HEADER a,
+.ListingResults_Level3_HEADER a:hover,
+.ListingResults_Level3_HEADER a:visited {
+  color: #ffffff;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.ListingResults_Level4_HEADER,
+.ListingResults_Level4_HEADER a,
+.ListingResults_Level4_HEADER a:hover,
+.ListingResults_Level4_HEADER a:visited {
+  color: #ffffff;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.ListingResults_Level5_HEADER,
+.ListingResults_Level5_HEADER a,
+.ListingResults_Level5_HEADER a:hover,
+.ListingResults_Level5_HEADER a:visited {
+  color: #ffffff;
+  font-size: 16px;
+  text-decoration: none;
+}
+/* specific categories */
