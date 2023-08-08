@@ -161,3 +161,13 @@
   text-decoration: none;
 }
 /* specific categories */
+
+/* in person fixes */
+.ListingResults_Level4_HEADER a {
+  color: #FFFFFF !important;
+}
+
+#wc-directorySearchGoogleMap {
+  display:  none;
+}
+/* in person fixes */
