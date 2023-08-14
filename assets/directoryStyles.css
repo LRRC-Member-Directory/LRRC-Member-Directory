@@ -160,14 +160,33 @@
   font-size: 16px;
   text-decoration: none;
 }
-/* specific categories */
 
-/* in person fixes */
 .ListingResults_Level4_HEADER a {
-  color: #FFFFFF !important;
+  color: #ffffff !important;
 }
 
 #wc-directorySearchGoogleMap {
-  display:  none;
+  display: none;
 }
-/* in person fixes */
+
+@media (min-width: 768px) {
+  #Table1 {
+    width: 750px !important;
+  }
+}
+@media (min-width: 992px) {
+  #Table1 {
+    width: 970px !important;
+  }
+}
+@media (min-width: 1200px) {
+  #Table1 {
+    width: 1170px !important;
+  }
+}
+
+.headlineWrapper {
+  font-weight: bold;
+  font-size: 32px;
+  text-align: center;
+}
