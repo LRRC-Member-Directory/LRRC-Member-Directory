@@ -9,8 +9,7 @@
 #memberDirectory {
   margin-right: auto;
   margin-left: auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 15px;
 }
 @media (min-width: 768px) {
   #memberDirectory {
@@ -37,7 +36,6 @@
   border-color: #696969;
   border-color: rgba(105, 105, 105, 1);
   background-color: #e6e7e8;
-  background-color: rgba(228, 239, 246, 1);
 }
 
 #memberDirectory thead {
