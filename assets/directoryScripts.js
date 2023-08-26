@@ -19,15 +19,22 @@ try {
 }
 
 const replaceMap = document.querySelector("#wc-directorySearchGoogleMap");
+
 if (replaceMap !== null) {
   const bannerContainer = document.querySelector("#bannerImage");
-  const bannerImage = document.querySelector("#bannerImage img");
-  bannerImage.setAttribute("style", "width: 100%; max-width: 1000px;");
-  replaceMap.outerHTML = bannerContainer.outerHTML;
-  replaceMap.setAttribute(
-    "style",
-    "display: flex; justify-content: center; padding: 10px;"
-  );
+  const bannerImage = bannerContainer.querySelector("img");
+
+  bannerImage.style.width = "100%";
+  bannerImage.style.maxWidth = "1000px";
+
+  replaceMap.innerHTML = bannerContainer.outerHTML;
+  replaceMap.classList.add("flex-container", "centered-container");
+
+  const newImage = document.querySelector("#memberDirectory #bannerImage");
+  newImage.classList.add("flex-container", "centered-container");
 } else {
-  document.querySelector("#bannerImage").remove();
+  const bannerImage = document.querySelector("#bannerImage");
+  if (bannerImage) {
+    bannerImage.remove();
+  }
 }
