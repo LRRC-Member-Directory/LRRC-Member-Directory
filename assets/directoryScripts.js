@@ -19,7 +19,15 @@ try {
 }
 
 const replaceMap = document.querySelector("#wc-directorySearchGoogleMap");
-if (replaceMap) {
-  const bannerImage = document.querySelector("#bannerImage")
-  console.log(bannerImage);
+if (replaceMap !== null) {
+  const bannerContainer = document.querySelector("#bannerImage");
+  const bannerImage = document.querySelector("#bannerImage img");
+  bannerImage.setAttribute("style", "width: 100%; max-width: 1000px;");
+  replaceMap.innerHTML = bannerContainer.innerHTML;
+  replaceMap.setAttribute(
+    "style",
+    "display: flex; justify-content: center; padding: 10px;"
+  );
+} else {
+  document.querySelector("#bannerImage").remove();
 }
