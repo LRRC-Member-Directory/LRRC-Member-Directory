@@ -23,7 +23,7 @@ if (replaceMap !== null) {
   const bannerContainer = document.querySelector("#bannerImage");
   const bannerImage = document.querySelector("#bannerImage img");
   bannerImage.setAttribute("style", "width: 100%; max-width: 1000px;");
-  replaceMap.innerHTML = bannerContainer.innerHTML;
+  replaceMap.outerHTML = bannerContainer.outerHTML;
   replaceMap.setAttribute(
     "style",
     "display: flex; justify-content: center; padding: 10px;"
