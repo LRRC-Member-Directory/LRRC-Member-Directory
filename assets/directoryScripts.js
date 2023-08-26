@@ -28,8 +28,8 @@ if (replaceMap !== null) {
     "style",
     "display: flex; justify-content: center; padding: 10px;"
   );
-  replaceMap.setAttribute("target", "_blank");
   const newImage = document.querySelector("#memberDirectory #bannerImage");
+  newImage.setAttribute("target", "_blank");
   newImage.setAttribute(
     "style",
     "display: flex; justify-content: center; padding: 10px;"
