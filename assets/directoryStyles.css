@@ -188,3 +188,7 @@
   font-size: 32px;
   text-align: center;
 }
+
+#wliCalendar .fc-day-grid .fc-event {
+  background-color: transparent;
+} 
