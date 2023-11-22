@@ -5568,7 +5568,7 @@ h1.purple[data-v-98407af0] {
 
 @media only screen and (max-width: 1023px) {
   .logo[data-v-98407af0] {
-    height: 48px;
+    height: 100px;
     margin-bottom: 10px;
     width: auto;
   }
@@ -5598,7 +5598,7 @@ h1.purple[data-v-98407af0] {
   }
 
   .logo[data-v-98407af0] {
-    height: 48px;
+    height: 70px;
     width: auto;
     margin-right: 8px;
   }
@@ -5652,7 +5652,7 @@ h1.purple[data-v-98407af0] {
 
 @media only screen and (min-width: 960px) {
   .logo[data-v-98407af0] {
-    height: 64px;
+    height: 75px;
     width: auto;
     margin-right: 16px;
   }
@@ -5696,7 +5696,7 @@ h1.purple[data-v-98407af0] {
 
 @media only screen and (min-width: 1280px) {
   .logo[data-v-98407af0] {
-    height: 72px;
+    height: 90px;
     width: auto;
   }
 
@@ -8830,7 +8830,7 @@ a[data-v-88bd4e76] {
 
 #cms-footer[data-v-d1b55aee] {
   width: 100%;
-  background-color: var(--bg-color);
+  background-color: black;
 }
 
 .apptegy-copyright[data-v-d1b55aee] {
@@ -8854,7 +8854,7 @@ a[data-v-88bd4e76] {
 }
 
 .apptegy-copyright.f1[data-v-d1b55aee] {
-  border-top: 2px solid var(--separator-color);
+  border-top: 2px solid var(--primary-color);
 }
 
 @media (max-width: 960px) {
@@ -26795,3 +26795,5 @@ strong {
 #menubutton .menu-field {
   padding-left: 10px;
 }
+
+.school-info {display: none;}
