@@ -3,6 +3,9 @@
   color: #e4002b;
   text-decoration: none;
 }
+#memberDirectory .ListingResults_Level5_HEADER a {
+  color: #fff !important;
+}
 /* global styling */
 
 /* general container */
