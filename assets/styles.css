@@ -4,6 +4,11 @@
   align-content: center;
 }
 
+/*hide back to full site*/
+#menubutton {
+  visibility: hidden;
+}
+
 
 .sr-only  {
   clip: rect(1px, 1px, 1px, 1px);
